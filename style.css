@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 25px 70px;
+  text-align: center;
+}
+
+.pricing_head h1 {
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.pricing_head p {
+  font-size: 23px;
+  opacity: 0.6;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.pricing-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-box {
+  margin: 5px 50px;
+  padding: 30px 70px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.144);
+  transition: 0.6s;
+}
+
+.pricing-box h2 {
+  font-size: 23px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.pricing-box h3 {
+  font-size: 23px;
+  font-weight: 900;
+  color: rgb(241, 105, 34);
+  margin: 10px 0;
+}
+
+.pricing-box p {
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgb(109, 106, 106);
+  line-height: 2;
+}
+
+.pricing-box button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(254, 122, 24, 1) 0%,
+    rgba(204, 85, 137, 1) 47%,
+    rgba(175, 58, 196, 1) 92%
+  );
+  padding: 7px 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  border-radius: 50px;
+  margin-top: 20px;
+  border-style: none;
+}
+
+.pricing-box button:focus {
+  outline: none;
+}
+.pricing-box button:hover,
+.pricing-box button:active {
+  cursor: pointer;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.pricing-box:hover,
+.pricing-box:active {
+  box-shadow: 2px 2px 3px 1px rgba(204, 85, 137, 1);
+}
